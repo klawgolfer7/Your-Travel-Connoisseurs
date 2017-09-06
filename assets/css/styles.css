@@ -121,7 +121,7 @@ iframe {
 
 .header {
   width: 100%;
-  height: 100%;
+  height: 600px;
   background-size: cover;
   background-image: url("../images/beachbackground.jpg");
   border-top: 10px solid #778492;
@@ -132,6 +132,7 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
+  padding: 30px;
 }
 .header .profile-content .name {
   color: #49515a;
