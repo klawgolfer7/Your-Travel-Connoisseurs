@@ -1,6 +1,6 @@
-$(document).ready(function($) {
+$(document).ready(function() {
 
-    $('#someElement').stellar();
+    $.stellar();
     
     //  Bootstrap Tooltip for Skillset 
     // $('.level-label').tooltip();
@@ -14,6 +14,7 @@ $(document).ready(function($) {
     //     "http://feeds.feedburner.com/TechCrunch/startups",
         
     //     {
+
     //     // how many entries do you want?
     //     // default: 4
     //     // valid values: any integer
@@ -37,12 +38,5 @@ $(document).ready(function($) {
     //     }
     // );
     
-    /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "klawgolfer7");
-    
-    
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "klawgolfer7", selector: "#ghfeed" });
-
 
 });
