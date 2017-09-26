@@ -116,15 +116,48 @@ iframe {
     -webkit-overflow-scrolling:touch;
 }
 */
+
+/*NAV BAR*/
+
+.nav-wrapper {
+  text-align: center;
+  /*#DAE3E7 background color before change*/
+  background-color: skyblue;
+  opacity: .85;
+/*  background: (255,2 55,255,0.5);*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.nav-wrapper ul {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.nav-wrapper li {
+  display: inline-block;
+  padding-left: 70px;
+  padding-top: 10px
+
+}
+.nav-wrapper a {
+  color: white;
+  /*#3AAA64 COLOR before change*/
+}
 /* ======= Header ======= */
 
-
+#companyName {
+  color: white;
+}
 .header {
   width: 100%;
   height: 750px;
   background-size: cover;
-  background-image: url("../images/beachbackground.jpg");
+  background-image: url("../images/white_beach_and_blue_sky_204719.jpg");
   border-top: 10px solid #778492;
+  padding-top: 25px;
 }
 .header .btn {
   margin-top: 60px;

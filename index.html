@@ -45,12 +45,27 @@
 </head> 
 
 <body>
+
+    <div class="nav-wrapper">
+<!--       <div id="menu-icon">&#9776;</div> -->
+    <nav>
+      <ul>
+        <li class="current"><a href="#aboutMe">About Us</a></li>
+        <li><a href="#projectList">Testimonials</a></li>
+        <li><a href="#experienceList">Experience</a></li>
+        <li><a href="#skillList">Skills</a></li>
+        <li><a href="#educationList">Education</a></li>
+
+      </ul>
+    </nav>  
+
+  </div>
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
 
 
-                <h1 class="name">Your Travel Connoisseurs</h1>
+                <h1 class="name" id="companyName">Your Travel Connoisseurs</h1>
                 <h2 class="desc"><!-- Web Developer --></h2>
                 <ul class="social list-inline">
                     <li><a href="https://www.facebook.com/Your-Travel-Connoisseurs-260678690614144/?pnref=lhc" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -61,6 +76,28 @@
             <a class="btn btn-cta-primary pull-right" href="mailto:travelpeg1@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Us</a>
         </div><!--//container-->
     </header><!--//header-->
+
+
+
+    <!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
+<!-- Search Google -->
+<center>
+<FORM method=GET action="http://www.google.com/search">
+<TABLE bgcolor="#FFFFFF"><tr><td>
+<A HREF="http://www.google.com/">
+<IMG SRC="http://www.google.com/logos/Logo_40wht.gif" <br></A>
+<INPUT TYPE=text name=q size=31 maxlength=255 value="" placeholder="Google Search">
+<INPUT TYPE=hidden name=hl value="en">
+<INPUT type=submit name=btnG VALUE="Google Search">
+</td></tr></TABLE>
+</FORM>
+</center>
+<!-- Search Google -->
+
+<font face="Tahoma"><a target="_blank" href="http://www.javascriptfreecode.com/"><span style="font-size: 8pt; text-decoration: none">JavaScript Free Code</span></a></font>
+
+
+
     
     <div class="container sections-wrapper">
         <div class="row">
@@ -89,23 +126,22 @@
                         <h2 class="heading">Testimonials</h2>
                         <div class="content">    
                                                
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="https://cancer-alliance.herokuapp.com/" target="_blank">Patti T. of Oakbrook, IL</a></h3>
+                            <div class="item featured text-left">
+                                <h3 class="title">Patti T. of Oakbrook, IL</h3>
                                 <p class="summary">We are having an absolutely wonderful time together on our cruise.  The accommodations are great, the meals outstanding, and the fellow passengers enjoyable.  We highly recommend this cruise to your customers!
 Patti T. of Oakbrook</p>
                                 
                             </div><!--//item-->
-                            <hr class="divider" />
+                            <!-- <hr class="divider" /> -->
                             <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/klawgolfer7/movie-project" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/limelightLogo.jpg" alt="project name" />
-                                </a>
+
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href="https://github.com/klawgolfer7/movie-project" target="_blank">Kevin L. of Jersey City, NJ</a></h3>
                                     <p>Project will allow users to enter the name of an actor and the project will return information on the actor and his/her movies as well as the results of a YouTube search for the various movies' trailers.</p>
                                     <p><a class="more-link" href="https://github.com/klawgolfer7/movie-project" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
+                            <!-- <hr class="divider" /> -->
                             
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/klawgolfer7/Surprise" target="_blank">
